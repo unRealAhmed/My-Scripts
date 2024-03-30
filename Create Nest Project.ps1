@@ -42,3 +42,6 @@ $tsconfigContent = @"
 }
 "@
 Set-Content -Path "tsconfig.json" -Value $tsconfigContent
+
+#Install the most common packages that i use
+npm i @nestjs/swagger class-validator class-transformer
