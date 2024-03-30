@@ -2,7 +2,7 @@
 $projectLocation = Read-Host "Enter the location where you want to create the Nest.js project"
 
 # Prompt the user for the project name
-$projectName = Read-Host "Enter your NestJS project name"
+$projectName = Read-Host "Enter your NestJS project name💝"
 
 # Change to the specified project location
 Set-Location $projectLocation
