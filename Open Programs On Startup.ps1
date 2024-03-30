@@ -5,7 +5,7 @@
 Start-Process "brave"
 
 # Open Google Chrome
-Start-Process "chrome"
+Start-Process "chrome" -ArgumentList "https://mail.google.com/mail", "https://github.com/projects"
 
 # Open Slack
 Start-Process "C:\Users\elm4m\AppData\Local\slack\slack.exe"
